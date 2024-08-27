@@ -19,7 +19,7 @@ const Weekdays = [
     'Saturday',
 ];
 
-export default function Tag(data: IntData) {
+function Tag(data: IntData) {
     return (
         <View
             style={styles.tagContainer}
@@ -43,6 +43,8 @@ export default function Tag(data: IntData) {
         </View>
     );
 }
+
+export default Tag;
 
 // style={styles.check}
 const check = {

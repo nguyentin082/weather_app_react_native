@@ -13,7 +13,12 @@ import {
     ActivityIndicator,
 } from 'react-native';
 import { StyleSheet } from 'react-native';
-import React, { useEffect, useState, useCallback } from 'react';
+import React, {
+    useEffect,
+    useState,
+    useCallback,
+    useLayoutEffect,
+} from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Entypo from '@expo/vector-icons/Entypo';
